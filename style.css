@@ -1,6 +1,6 @@
 #root {
     width: 500px;
-    height: 600px;
+    height: auto;
     position: fixed;
     top: 50%;
     left: 50%;
@@ -13,7 +13,7 @@
 #root > textarea {
     display: block;
     width: 80%;
-    height: 70%;
+    height: 422px;
     margin-right: auto;
     margin-left: auto;
     margin-top: 10%;
@@ -30,11 +30,25 @@
     display: block;
     height: 50px;
     width: 50%;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 5%;
+    margin: 5% auto;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     background-color: #5043c5;
     cursor: pointer;
+}
+
+#root > table {
+    margin: 5% 0;
+    display: block;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    width: 100%;
+    text-align: center;
+    border: 1px solid;
+    font-size: 18px;
 }
